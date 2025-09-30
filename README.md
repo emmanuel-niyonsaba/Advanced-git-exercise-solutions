@@ -377,6 +377,43 @@ To https://github.com/emmanuel-niyonsaba/Advanced-git-exercise-solutions.git
  * [new branch]      ft/improved-branch-name -> ft/improved-branch-name
 branch 'ft/improved-branch-name' set up to track 'origin/ft/improved-branch-name'.
 
-Emmanuel Niyonsaba@DESKTOP-011VBOI MINGW64 /d/CodingRelated/Advanced-git-exercise-solutions (ft/improved-branch-name)     
+Emmanuel Niyonsaba@DESKTOP-011VBOI MINGW64 /d/CodingRelated/Advanced-git-exercise-solutions (ft/improved-branch-name)   
+
 $
+
+
+
+Emmanuel Niyonsaba@DESKTOP-011VBOI MINGW64 /d/CodingRelated/Advanced-git-exercise-solutions (ft/improved-branch-name)     
+$ git commit -m'add terminal commands in of part 2 '
+[ft/improved-branch-name 7b38b41] add terminal commands in of part 2
+ 1 file changed, 382 insertions(+), 1 deletion(-)
+
+Emmanuel Niyonsaba@DESKTOP-011VBOI MINGW64 /d/CodingRelated/Advanced-git-exercise-solutions (ft/improved-branch-name)     
+$ git push
+fatal: unable to access 'https://github.com/emmanuel-niyonsaba/Advanced-git-exercise-solutions.git/': Could not resolve host: github.com
+
+Emmanuel Niyonsaba@DESKTOP-011VBOI MINGW64 /d/CodingRelated/Advanced-git-exercise-solutions (ft/improved-branch-name)     
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 2.66 KiB | 2.66 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/emmanuel-niyonsaba/Advanced-git-exercise-solutions.git
+   f448cc8..7b38b41  ft/improved-branch-name -> ft/improved-branch-name
+
+Emmanuel Niyonsaba@DESKTOP-011VBOI MINGW64 /d/CodingRelated/Advanced-git-exercise-solutions (ft/improved-branch-name)     
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Emmanuel Niyonsaba@DESKTOP-011VBOI MINGW64 /d/CodingRelated/Advanced-git-exercise-solutions (main)
+$ git merge ft/improved-branch-name 
+Updating f448cc8..7b38b41
+Fast-forward
+ README.md | 383 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ 1 file changed, 382 insertions(+), 1 deletion(-)
+
 ```
